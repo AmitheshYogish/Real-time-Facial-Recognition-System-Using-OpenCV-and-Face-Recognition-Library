@@ -3,7 +3,7 @@
 ## Overview:
 The provided code is a face recognition system implemented in Python using the OpenCV library. It consists of two main files: `main.py` and `simple_facerec.py`. The system aims to detect faces in a live video stream from a webcam and recognize them if they match with the pre-encoded faces stored in a specified folder.
 
-## Complete Workflow:
+## Workflow:
 1. Import Libraries: Both `main.py` and `simple_facerec.py` begin with importing necessary libraries, including OpenCV (`cv2`) and the custom module `SimpleFacerec`.
 
 2. Encoding Faces: Within both files, an instance of the `SimpleFacerec` class is created. This class handles the encoding of faces from images stored in a folder. The method `load_encoding_images()` is called to load the images for encoding.
